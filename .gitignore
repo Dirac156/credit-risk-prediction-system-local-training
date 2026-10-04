@@ -1,0 +1,28 @@
+# Data
+data/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Model artifacts
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tooling / OS
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.vscode/
+.DS_Store
